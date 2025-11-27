@@ -1,0 +1,100 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <style>
+        .import-help {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .import-help h4 {
+            margin-top: 0;
+            color: #495057;
+        }
+        .import-help pre {
+            background: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 3px;
+            padding: 10px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .form-row {
+            margin-bottom: 20px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    <div class="import-help">
+        <h4>JSON Import Format</h4>
+        <p>Upload a JSON file containing an array of page translation objects. Each object should have the following structure:</p>
+        <pre>[
+  {
+    "page_slug": "home",
+    "locale": "en",
+    "title": "Welcome to TravelAcross EU",
+    "subtitle": "Your AI-powered travel companion",
+    "body": "Discover Europe with our intelligent travel guides...",
+    "meta_title": "TravelAcross EU - AI Travel Guides",
+    "meta_description": "Explore Europe with AI-powered travel guides and recommendations."
+  },
+  {
+    "page_slug": "about",
+    "locale": "fr",
+    "title": "À propos de TravelAcross EU",
+    "subtitle": "Votre compagnon de voyage alimenté par l'IA",
+    "body": "Découvrez l'Europe avec nos guides de voyage intelligents...",
+    "meta_title": "TravelAcross EU - Guides de Voyage IA",
+    "meta_description": "Explorez l'Europe avec des guides de voyage et des recommandations alimentés par l'IA."
+  }
+]</pre>
+        <p><strong>Required fields:</strong> <code>page_slug</code>, <code>locale</code></p>
+        <p><strong>Optional fields:</strong> <code>title</code>, <code>subtitle</code>, <code>body</code>, <code>meta_title</code>, <code>meta_description</code></p>
+        <p><strong>Supported locales:</strong> en, fr, nl, es, pt</p>
+    </div>
+
+    <form enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        
+        <fieldset class="module aligned wide">
+            <h2>Upload JSON File</h2>
+            
+            {% if form.non_field_errors %}
+                <div class="errornote">
+                    {{ form.non_field_errors }}
+                </div>
+            {% endif %}
+            
+            <div class="form-row">
+                <div>
+                    {{ form.file.label_tag }}
+                    {{ form.file }}
+                    {% if form.file.errors %}
+                        <ul class="errorlist">
+                            {% for error in form.file.errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    {% if form.file.help_text %}
+                        <div class="help">{{ form.file.help_text }}</div>
+                    {% endif %}
+                </div>
+            </div>
+        </fieldset>
+        
+        <div class="submit-row">
+            <input type="submit" value="Import JSON" class="default" />
+            <a href="{% url 'admin:cms_pagetranslation_changelist' %}" class="button cancel-link">Cancel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

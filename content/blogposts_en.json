@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "lisbon-porto-6-days",
+    "category_slug": "routes", 
+    "is_published": true,
+    "meta_title": "Lisbon and Porto in 6 Days – Simple Trip Plan",
+    "meta_description": "A calm 6-day route combining Lisbon and Porto with realistic travel times, viewpoints and riversides.",
+    "og_title": "Lisbon + Porto in 6 Days",
+    "og_description": "A simple, real-world 6-day trip linking Lisbon and Porto by train.",
+    "og_image": "/images/stories/story-1.jpg",
+    "canonical_url": "https://travelacrosseu.eu/en/blog/lisbon-porto-6-days",
+    "seo_enabled": true,
+    "jsonld_type": "BlogPosting",
+
+    "locale": "en",
+    "title": "Lisbon + Porto in 6 days (without rushing)",
+    "subtitle": "One calm week between viewpoints, trams and river walks.",
+    "body": "<p>Intro paragraph about why this combo works...</p><h2>Day 1–3: Lisbon</h2><p>...</p><h2>Day 4–6: Porto</h2><p>...</p>",
+    "translation_meta_title": "Lisbon & Porto in 6 Days – TravelAcross EU",
+    "translation_meta_description": "A realistic 6-day route linking Lisbon and Porto with views, food and riverside walks."
+  },
+
+  {
+    "slug": "barcelona-valencia-5-days",
+    "category_slug": "routes",
+    "is_published": true,
+    "meta_title": "Barcelona and Valencia in 5 Days – Easy Coastal Trip",
+    "meta_description": "Five days between Barcelona and Valencia, with seaside walks, trains and simple city moves.",
+    "og_title": "Barcelona + Valencia in 5 Days",
+    "og_description": "A compact 5-day loop between Barcelona and Valencia with coastal vibes.",
+    "og_image": "/images/stories/story-2.jpg",
+    "canonical_url": "https://travelacrosseu.eu/en/blog/barcelona-valencia-5-days",
+    "seo_enabled": true,
+    "jsonld_type": "BlogPosting",
+
+    "locale": "en",
+    "title": "Barcelona + Valencia in 5 days",
+    "subtitle": "Two coastal cities, one simple trip.",
+    "body": "<p>Intro...</p>",
+    "translation_meta_title": "Barcelona & Valencia in 5 Days – TravelAcross EU",
+    "translation_meta_description": "Two coastal cities in one 5-day trip, with simple train links and plenty of sea air."
+  }
+]

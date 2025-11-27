@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "austria",
+    "image_filename": "country-austria.jpg",
+    "image_prompt": "Realistic travel photo of an Austrian alpine lake with a small village and church on the shore, green mountains in the background, soft daylight, calm water reflections."
+  },
+  {
+    "slug": "belgium",
+    "image_filename": "country-belgium.jpg",
+    "image_prompt": "Evening scene of a canal in Bruges with historic brick houses reflected in the water, warm window lights, small stone bridge, blue hour sky."
+  },
+  {
+    "slug": "bulgaria",
+    "image_filename": "country-bulgaria.jpg",
+    "image_prompt": "Black Sea coastline in Bulgaria with a sandy beach, cliffs and a small coastal town in the distance, warm summer light, clear blue water."
+  },
+  {
+    "slug": "croatia",
+    "image_filename": "country-croatia.jpg",
+    "image_prompt": "Overhead or elevated view of a Croatian Adriatic old town with red rooftops and stone walls beside turquoise water, boats in the harbour, sunny Mediterranean light."
+  },
+  {
+    "slug": "cyprus",
+    "image_filename": "country-cyprus.jpg",
+    "image_prompt": "Cinematic view of a turquoise bay in Cyprus with rocky coastline, clear water and a small beach, bright Mediterranean sun and blue sky."
+  },
+  {
+    "slug": "czech-republic",
+    "image_filename": "country-czech-republic.jpg",
+    "image_prompt": "Sunrise over Prague with Charles Bridge and the old town skyline, pastel sky, calm river, historic towers and domes."
+  },
+  {
+    "slug": "denmark",
+    "image_filename": "country-denmark.jpg",
+    "image_prompt": "Nyhavn harbour in Copenhagen style scene with colourful townhouses along the canal, moored boats, soft daylight, relaxed Nordic city vibe."
+  },
+  {
+    "slug": "estonia",
+    "image_filename": "country-estonia.jpg",
+    "image_prompt": "Tallinn old town skyline with medieval towers and red roofs, surrounded by Baltic sea or forest in the distance, clear northern light."
+  },
+  {
+    "slug": "finland",
+    "image_filename": "country-finland.jpg",
+    "image_prompt": "Finnish lake surrounded by dense forest, wooden pier or small cabin at the water’s edge, calm reflections, soft northern daylight."
+  },
+  {
+    "slug": "france",
+    "image_filename": "country-france.jpg",
+    "image_prompt": "Wide shot of the Eiffel Tower seen from a distance with trees and city buildings, natural daylight, realistic Paris travel photo."
+  },
+  {
+    "slug": "germany",
+    "image_filename": "country-germany.jpg",
+    "image_prompt": "Scenic view of a German castle on a hill above a river valley or forest, soft afternoon light, atmospheric clouds, realistic European landscape."
+  },
+  {
+    "slug": "greece",
+    "image_filename": "country-greece.jpg",
+    "image_prompt": "Classic Greek island scene with whitewashed houses and blue domes on a cliff above the Aegean Sea, bright sunlight, deep blue water."
+  },
+  {
+    "slug": "hungary",
+    "image_filename": "country-hungary.jpg",
+    "image_prompt": "Budapest parliament building beside the Danube river at golden hour, reflections on the water, city skyline and bridges in view."
+  },
+  {
+    "slug": "ireland",
+    "image_filename": "country-ireland.jpg",
+    "image_prompt": "Dramatic coastal cliffs in Ireland with green grass on top, waves crashing below, cloudy but bright sky, wild and natural look."
+  },
+  {
+    "slug": "italy",
+    "image_filename": "country-italy.jpg",
+    "image_prompt": "Tuscany-style landscape with rolling hills, cypress trees and a farmhouse, warm golden light, hazy distant hills, classic Italian countryside."
+  },
+  {
+    "slug": "latvia",
+    "image_filename": "country-latvia.jpg",
+    "image_prompt": "Riga old town skyline with colourful historic buildings and church spires near a river, soft Baltic light, clean city view."
+  },
+  {
+    "slug": "lithuania",
+    "image_filename": "country-lithuania.jpg",
+    "image_prompt": "Lithuanian landscape with pine forest, lake and sandy dunes or coastal scenery, soft daylight, quiet Baltic atmosphere."
+  },
+  {
+    "slug": "luxembourg",
+    "image_filename": "country-luxembourg.jpg",
+    "image_prompt": "Luxembourg City view with fortress walls, bridges and green valleys, layered city built on different levels, daylight, realistic travel photo."
+  },
+  {
+    "slug": "malta",
+    "image_filename": "country-malta.jpg",
+    "image_prompt": "Valletta style harbour scene in Malta with stone buildings, fortifications and blue water, small boats in the foreground, warm Mediterranean light."
+  },
+  {
+    "slug": "netherlands",
+    "image_filename": "country-netherlands.jpg",
+    "image_prompt": "Dutch windmills beside a canal with green fields and big sky, reflections in the water, early morning or late afternoon light."
+  },
+  {
+    "slug": "poland",
+    "image_filename": "country-poland.jpg",
+    "image_prompt": "Kraków main square style scene with historic townhouses, church towers and a wide open plaza, clear daylight, people small in the distance."
+  },
+  {
+    "slug": "portugal",
+    "image_filename": "country-portugal.jpg",
+    "image_prompt": "Lisbon viewpoint over colourful hillside buildings with the Tagus river in the background, warm sunlight, tiled rooftops and narrow streets."
+  },
+  {
+    "slug": "romania",
+    "image_filename": "country-romania.jpg",
+    "image_prompt": "Carpathian mountain landscape in Romania with forested hills, a winding road or small village and a castle-like fortress on a hill, moody but natural light."
+  },
+  {
+    "slug": "slovakia",
+    "image_filename": "country-slovakia.jpg",
+    "image_prompt": "High Tatras mountain range in Slovakia with sharp peaks, alpine meadow or lake in the foreground, clear blue sky or light clouds."
+  },
+  {
+    "slug": "slovenia",
+    "image_filename": "country-slovenia.jpg",
+    "image_prompt": "Lake Bled style scene with small island church, calm water and mountains in the background, soft morning or evening light, reflections on the lake."
+  },
+  {
+    "slug": "spain",
+    "image_filename": "country-spain.jpg",
+    "image_prompt": "Barcelona city and coastline view from a higher viewpoint, Mediterranean sea, urban grid, soft warm light, relaxed Spanish atmosphere."
+  },
+  {
+    "slug": "sweden",
+    "image_filename": "country-sweden.jpg",
+    "image_prompt": "Stockholm waterfront with colourful historic buildings along the water, reflections, boats and clear Nordic daylight, calm city scene."
+  }
+]

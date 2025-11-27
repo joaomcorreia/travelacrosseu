@@ -1,0 +1,204 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <style>
+        .import-help {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .import-help h4 {
+            margin-top: 0;
+            color: #495057;
+        }
+        .import-help pre {
+            background: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 3px;
+            padding: 10px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .form-row {
+            margin-bottom: 20px;
+        }
+        .schema-section {
+            margin-bottom: 15px;
+        }
+        .schema-section h5 {
+            color: #495057;
+            margin-bottom: 5px;
+        }
+        .field-info {
+            font-size: 11px;
+            color: #6c757d;
+            margin-left: 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    <div class="import-help">
+        <h4>JSON Import Format for {{ opts.verbose_name_plural }}</h4>
+        <p>Upload a JSON file containing an array of {{ opts.verbose_name|lower }} objects.</p>
+        
+        {% if model_name == 'country' %}
+            <div class="schema-section">
+                <h5>Expected JSON Structure:</h5>
+                <pre>[
+  {
+    "slug": "portugal",
+    "name": "Portugal", 
+    "short_description": "Sun-soaked beaches, historic cities, and affordable food.",
+    "hero_image": "https://example.com/images/portugal-hero.jpg",
+    "is_published": true,
+    "order": 10
+  }
+]</pre>
+                <p><strong>Required fields:</strong> <code>slug</code></p>
+                <p><strong>Optional fields:</strong> <code>name</code>, <code>short_description</code>, <code>hero_image</code>, <code>is_published</code>, <code>order</code></p>
+            </div>
+        {% elif model_name == 'city' %}
+            <div class="schema-section">
+                <h5>Expected JSON Structure:</h5>
+                <pre>[
+  {
+    "country_slug": "portugal",
+    "slug": "lisbon",
+    "name": "Lisbon",
+    "short_description": "Hilly streets, yellow trams, pastel houses.",
+    "hero_image": "https://example.com/images/lisbon.jpg",
+    "is_published": true,
+    "order": 10
+  }
+]</pre>
+                <p><strong>Required fields:</strong> <code>slug</code>, <code>country_slug</code></p>
+                <p><strong>Optional fields:</strong> <code>name</code>, <code>short_description</code>, <code>hero_image</code>, <code>is_published</code>, <code>order</code></p>
+            </div>
+        {% elif model_name == 'destination' %}
+            <div class="schema-section">
+                <h5>Expected JSON Structure:</h5>
+                <pre>[
+  {
+    "country_slug": "portugal",
+    "city_slug": "lisbon",
+    "slug": "louvre-museum",
+    "tags": ["Museum", "Art", "Architecture"],
+    "is_featured": true,
+    "is_published": true,
+    "hero_image": "https://example.com/images/louvre.jpg"
+  }
+]</pre>
+                <p><strong>Required fields:</strong> <code>slug</code>, <code>city_slug</code></p>
+                <p><strong>Optional fields:</strong> <code>country_slug</code>, <code>tags</code>, <code>is_featured</code>, <code>is_published</code>, <code>hero_image</code></p>
+                <p><strong>Note:</strong> <code>tags</code> can be a list of strings or comma-separated string</p>
+            </div>
+        {% elif model_name == 'homepagecategory' %}
+            <div class="schema-section">
+                <h5>Expected JSON Structure:</h5>
+                <pre>[
+  {
+    "slug": "city-breaks",
+    "locale": "en",
+    "title": "City Breaks",
+    "description": "Short trips, big experiences.",
+    "image": "https://example.com/images/city-breaks.jpg",
+    "is_published": true,
+    "order": 10
+  }
+]</pre>
+                <p><strong>Required fields:</strong> <code>slug</code></p>
+                <p><strong>Optional fields:</strong> <code>locale</code>, <code>title</code>, <code>description</code>, <code>image</code>, <code>is_published</code>, <code>order</code></p>
+                <p><strong>Note:</strong> If <code>locale</code> is provided, a translation will be created/updated</p>
+            </div>
+        {% elif model_name == 'blogpost' %}
+            <div class="schema-section">
+                <h5>Expected JSON Structure:</h5>
+                <pre>[
+  {
+    "slug": "weekend-in-lisbon-for-couples",
+    "locale": "en",
+    "title": "A Perfect Weekend in Lisbon for Couples",
+    "subtitle": "Plan a romantic 48 hours in Lisbon",
+    "body": "&lt;p&gt;Full HTML body...&lt;/p&gt;",
+    "meta_title": "Weekend in Lisbon for Couples – TravelAcross EU",
+    "meta_description": "Discover how to spend a romantic weekend in Lisbon.",
+    "category_slug": "city-breaks",
+    "hero_image": "https://example.com/images/lisbon-couples.jpg",
+    "is_published": true,
+    "published_at": "2025-01-01T00:00:00Z"
+  }
+]</pre>
+                <p><strong>Required fields:</strong> <code>slug</code></p>
+                <p><strong>Optional fields:</strong> <code>locale</code>, <code>title</code>, <code>subtitle</code>, <code>body</code>, <code>meta_title</code>, <code>meta_description</code>, <code>category_slug</code>, <code>hero_image</code>, <code>is_published</code>, <code>published_at</code></p>
+                <p><strong>Note:</strong> If <code>locale</code> is provided, a translation will be created/updated</p>
+            </div>
+        {% elif model_name == 'pagetranslation' %}
+            <div class="schema-section">
+                <h5>Expected JSON Structure:</h5>
+                <pre>[
+  {
+    "page_slug": "home",
+    "locale": "en",
+    "title": "Welcome to TravelAcross EU",
+    "subtitle": "Your AI-powered travel companion",
+    "body": "Discover Europe with our intelligent travel guides...",
+    "meta_title": "TravelAcross EU - AI Travel Guides",
+    "meta_description": "Explore Europe with AI-powered travel guides."
+  }
+]</pre>
+                <p><strong>Required fields:</strong> <code>page_slug</code>, <code>locale</code></p>
+                <p><strong>Optional fields:</strong> <code>title</code>, <code>subtitle</code>, <code>body</code>, <code>meta_title</code>, <code>meta_description</code></p>
+            </div>
+        {% else %}
+            <p>Please refer to the model documentation for the expected JSON structure.</p>
+        {% endif %}
+
+        <p><strong>Supported locales:</strong> en, fr, nl, es, pt</p>
+        <p><strong>File requirements:</strong> JSON format, maximum 5MB</p>
+    </div>
+
+    <form enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        
+        <fieldset class="module aligned wide">
+            <h2>Upload JSON File</h2>
+            
+            {% if form.non_field_errors %}
+                <div class="errornote">
+                    {{ form.non_field_errors }}
+                </div>
+            {% endif %}
+            
+            <div class="form-row">
+                <div>
+                    {{ form.file.label_tag }}
+                    {{ form.file }}
+                    {% if form.file.errors %}
+                        <ul class="errorlist">
+                            {% for error in form.file.errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    {% if form.file.help_text %}
+                        <div class="help">{{ form.file.help_text }}</div>
+                    {% endif %}
+                </div>
+            </div>
+        </fieldset>
+        
+        <div class="submit-row">
+            <input type="submit" value="Import JSON" class="default" />
+            <a href="{% url 'admin:'|add:app_label|add:'_'|add:model_name|add:'_changelist' %}" class="button cancel-link">Cancel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

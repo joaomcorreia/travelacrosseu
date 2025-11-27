@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "portugal",
+    "name": "Portugal",
+    "short_description": "Sun-soaked beaches, historic cities, and affordable food.",
+    "hero_image": "https://example.com/images/portugal-hero.jpg",
+    "is_published": true,
+    "order": 10
+  },
+  {
+    "slug": "spain",
+    "name": "Spain", 
+    "short_description": "Vibrant culture, delicious tapas, and stunning architecture.",
+    "hero_image": "https://example.com/images/spain-hero.jpg",
+    "is_published": true,
+    "order": 20
+  }
+]

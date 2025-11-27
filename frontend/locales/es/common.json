@@ -1,0 +1,173 @@
+{
+  "home": {
+    "badge": "TravelAcrossEU - Hybrid Light/Dark",
+    "hero": {
+      "titlePre": "Explore Europe with",
+      "titleEmphasis": "smarter itineraries",
+      "titlePost": "and seasonal picks.",
+      "subtitle": "One homepage that adapts to language, season, and mood. Show top destinations, last-minute deals, or custom experiences - all from a single control panel.",
+      "ctaPrimary": "Start planning",
+      "ctaSecondary": "View demo trip",
+      "footnote": "Smart language switcher - Seasonal sections - Booking widget ready",
+      "booking": {
+        "title": "Booking widget slot",
+        "badge": "Coming soon",
+        "fromLabel": "From",
+        "toLabel": "To",
+        "datesLabel": "Dates",
+        "travelersLabel": "Travelers",
+        "fromValue": "Amsterdam, NL",
+        "toValue": "Paris, FR",
+        "datesValue": "12-16 Mar",
+        "travelersValue": "2 adults",
+        "button": "Connect booking partner"
+      }
+    },
+    "seasonal": {
+      "label": "Seasonal spotlight",
+      "title": "Pick a vibe and we will match the city.",
+      "description": "Pick a theme and we will help you match it with the right EU city.",
+      "cardLabel": "Season",
+      "cta": "Browse destinations",
+      "cards": [
+        {
+          "title": "Winter city breaks",
+          "description": "Festive markets, design hotels, and late-night gallery crawls."
+        },
+        {
+          "title": "Sunny escapes for early spring",
+          "description": "Lisbon rooftops, Valencia bike lanes, and island-hopping itineraries."
+        },
+        {
+          "title": "Romantic weekends",
+          "description": "Boutique stays, candlelit wine bars, and Seine-side strolls."
+        },
+        {
+          "title": "Slow travel and nature routes",
+          "description": "Forest cabins, fjord ferries, and scenic rail across the Alps."
+        }
+      ]
+    },
+    "featured": {
+      "label": "Featured destinations",
+      "title": "Powered directly by the Django API.",
+      "demoNotice": "Demo itineraries displaying while production content loads.",
+      "categoryFallback": "Featured",
+      "summaryFallback": "Fresh stories coming soon.",
+      "cta": "View guide",
+      "footnote": "Every card reuses the same React component, so when AI publishes in a new language we get the glow-up instantly."
+    },
+    "themes": {
+      "label": "Themes",
+      "title": "Choose a mood, not just a map.",
+      "description": "Filters route to /destinations for now. Smart filtering arrives later.",
+      "cards": [
+        {
+          "title": "City breaks",
+          "description": "Long weekends with food tours, modern art, and skyline bars."
+        },
+        {
+          "title": "Beach escapes",
+          "description": "Island hops, surf shacks, and Mediterranean sunsets."
+        },
+        {
+          "title": "Romantic trips",
+          "description": "Boutique stays, wine tastings, and river walks."
+        },
+        {
+          "title": "Nature and hiking",
+          "description": "Alpine loops, fjord ferries, and national park cabins."
+        },
+        {
+          "title": "Cultural routes",
+          "description": "Museums, theatre, and heritage rail journeys."
+        }
+      ]
+    },
+    "blog": {
+      "label": "Inspiration from the blog",
+      "title": "Deep dives coming soon. Here's where they will live.",
+      "description": "We will publish long-form stories next, but you can already spot the structure.",
+      "cta": "Read more",
+      "cards": [
+        {
+          "tag": "Seasonal",
+          "title": "Winter city breaks",
+          "description": "Chase festive markets, modern museums, and cozy cafes from Berlin to Vienna.",
+          "href": "#"
+        },
+        {
+          "tag": "Tips",
+          "title": "Shoulder-season sun",
+          "description": "Split spring between Lisbon rooftops and the mellow shores of the Algarve.",
+          "href": "#"
+        },
+        {
+          "tag": "Guides",
+          "title": "Slow travel playbook",
+          "description": "Plan month-long loops with rail passes, guesthouses, and coastal hikes.",
+          "href": "#"
+        }
+      ]
+    },
+    "howItWorks": {
+      "label": "How it works",
+      "title": "A hybrid layout that keeps pace with your ops.",
+      "description": "Flights and hotels arrive in PHASE 4, Step 3 - the layout already leaves room.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Pick a city",
+          "description": "Select a locale and theme, then choose the language you need first."
+        },
+        {
+          "step": "02",
+          "title": "Read the guide",
+          "description": "Hero, itinerary, dining, and logistics sections land instantly."
+        },
+        {
+          "step": "03",
+          "title": "Customize",
+          "description": "Edit highlights, pin favorite spots, and save seasonal notes."
+        },
+        {
+          "step": "04",
+          "title": "Share or sync",
+          "description": "Push to the Django API today, flights and hotels tomorrow."
+        }
+      ]
+    }
+  },
+  "layout": {
+    "siteTitle": "TravelAcross EU",
+    "siteTagline": "",
+    "siteInitials": "TA"
+  },
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "languageMenu": "Languages",
+    "cta": "Browse now"
+  },
+  "footer": {
+    "copyright": "© 2025 TravelAcross EU. All rights reserved.",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "contact": "Contact"
+  },
+  "notFound": {
+    "title": "Esta página se desvió.",
+    "description": "No encontramos la página solicitada. Vuelve al inicio o entra al feed de destinos para seguir planificando.",
+    "ctaPrimary": "Volver al inicio",
+    "ctaSecondary": "Ver destinos"
+  },
+  "seo": {
+    "home": {
+      "title": "TravelAcross EU — Guías de viaje IA multilingües",
+      "description": "Explora la página de inicio híbrida de TravelAcross EU con itinerarios localizados, destacados de temporada y bases listas para vuelos y hoteles."
+    }
+  }
+}

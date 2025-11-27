@@ -1,0 +1,113 @@
+{% extends "admin/base_site.html" %}
+
+{% block extrahead %}{{ block.super }}
+<style>
+    /* Global Light Theme Override for All Admin Pages */
+    body {
+        background: #f8f9fa !important;
+    }
+    
+    #container {
+        background: #f8f9fa !important;
+        min-height: 100vh;
+    }
+    
+    #content {
+        background: #f8f9fa !important;
+    }
+    
+    #content-main {
+        background: #f8f9fa !important;
+    }
+    
+    .breadcrumbs {
+        background: #ffffff !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+        border-radius: 0 !important;
+    }
+    
+    #header {
+        background: #ffffff !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+    
+    #branding h1, #branding h1 a:link, #branding h1 a:visited {
+        color: #343a40 !important;
+    }
+    
+    #user-tools a {
+        color: #007bff !important;
+    }
+    
+    #user-tools a:hover {
+        color: #0056b3 !important;
+    }
+    
+    /* Form and table styling */
+    .module {
+        background: #ffffff !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 8px !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    }
+    
+    .module h2, .module caption, .inline-group h2 {
+        background: #f8f9fa !important;
+        color: #343a40 !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+    
+    table thead th {
+        background: #f8f9fa !important;
+        color: #343a40 !important;
+    }
+    
+    .submit-row {
+        background: #f8f9fa !important;
+        border-top: 1px solid #e0e0e0 !important;
+    }
+    
+    .button, input[type=submit], input[type=button], .submit-row input, a.button {
+        background: #007bff !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 6px !important;
+        padding: 8px 16px !important;
+        font-weight: 600 !important;
+        transition: all 0.2s ease !important;
+        text-decoration: none !important;
+        box-shadow: 0 2px 4px rgba(0,123,255,0.2) !important;
+    }
+    
+    .button:hover, input[type=submit]:hover, input[type=button]:hover, .submit-row input:hover, a.button:hover {
+        background: #0056b3 !important;
+        transform: translateY(-1px) !important;
+        box-shadow: 0 4px 8px rgba(0,123,255,0.3) !important;
+    }
+    
+    .default {
+        background: #28a745 !important;
+    }
+    
+    .default:hover {
+        background: #1e7e34 !important;
+    }
+    
+    /* Navigation styling */
+    .app-list a {
+        color: #007bff !important;
+    }
+    
+    .app-list a:hover {
+        color: #0056b3 !important;
+    }
+    
+    .model-list a {
+        color: #6c757d !important;
+    }
+    
+    .model-list a:hover {
+        color: #343a40 !important;
+    }
+</style>
+{% endblock %}

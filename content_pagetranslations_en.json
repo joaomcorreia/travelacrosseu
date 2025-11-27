@@ -1,0 +1,101 @@
+[
+  {
+    "page_slug": "home",
+    "locale": "en",
+    "title": "Explore Europe With Ease",
+    "subtitle": "Discover new places, hidden gems, and travel ideas for every season.",
+    "body": "Europe is full of unforgettable experiences — from coastal sunsets and medieval towns to modern capitals buzzing with culture.\nWhether you’re planning a quick weekend away or a longer adventure, TravelAcrossEU helps you find destinations, ideas, and inspiration that actually fit your style.",
+    "meta_title": "Explore Europe Easily — TravelAcrossEU",
+    "meta_description": "Discover Europe’s best destinations, itineraries, city guides, and travel ideas. From famous capitals to hidden gems, TravelAcrossEU makes it easy to plan your next European trip."
+  },
+  {
+    "page_slug": "about",
+    "locale": "en",
+    "title": "About TravelAcrossEU",
+    "subtitle": "Simple inspiration and clear guides for exploring Europe.",
+    "body": "TravelAcrossEU was created for people who love Europe but do not have time to dig through a hundred websites before every trip.\nOur goal is to keep things simple: clear guides, real destinations, and practical tips that help you choose where to go next without feeling overwhelmed.\n\nWe focus on easy weekend breaks, longer European trips, seasonal ideas, and destinations that feel authentic, not generic.",
+    "meta_title": "About TravelAcrossEU — Your Guide to Exploring Europe",
+    "meta_description": "Learn what TravelAcrossEU is about: simple, inspiring guides and curated destinations to help you explore Europe with less stress and more excitement."
+  },
+  {
+    "page_slug": "contact",
+    "locale": "en",
+    "title": "Contact & Feedback",
+    "subtitle": "Questions, ideas, or partnership requests? We would love to hear from you.",
+    "body": "Use this page to get in touch about TravelAcrossEU.\nWe welcome feedback about the website, suggestions for destinations you would like to see, partnership and affiliate questions, and corrections or updates to existing content.\n\nWe read every message, even if we cannot reply to all of them.",
+    "meta_title": "Contact TravelAcrossEU",
+    "meta_description": "Get in touch with TravelAcrossEU for feedback, suggestions, and partnership requests."
+  },
+  {
+    "page_slug": "destinations",
+    "locale": "en",
+    "title": "Discover Destinations Across Europe",
+    "subtitle": "Start with a country, then dive into cities and specific places to visit.",
+    "body": "This section helps you browse Europe in a structured way.\nFirst, choose a country. Then explore key cities. Finally, open detailed destination pages with ideas on what to see, where to stay, and why the place is worth your time.\n\nYou do not need to know exactly where you want to go yet — use this page as a starting point to explore.",
+    "meta_title": "European Destinations — Countries, Cities and Places to Visit",
+    "meta_description": "Browse European destinations by country and city. Discover curated places to visit across Europe with practical overviews and travel ideas."
+  },
+  {
+    "page_slug": "blog",
+    "locale": "en",
+    "title": "TravelAcrossEU Blog",
+    "subtitle": "Guides, tips, and ideas to help you plan your next European trip.",
+    "body": "The blog is where we share more detailed content: from packing checklists and itineraries to city breakdowns and seasonal inspiration.\n\nUse these articles to upgrade your trip — even small tips can make your travel smoother and more enjoyable.",
+    "meta_title": "TravelAcrossEU Blog — Tips, Guides and Ideas",
+    "meta_description": "Read travel tips, city guides, itineraries, and planning advice for trips across Europe on the TravelAcrossEU blog."
+  },
+  {
+    "page_slug": "privacy",
+    "locale": "en",
+    "title": "Privacy Policy",
+    "subtitle": "How we collect, use, and protect your data.",
+    "body": "TravelAcrossEU takes privacy seriously.\nThis page explains what information we collect, how we use it, and what choices you have.\n\nIn short, we only collect the data we need to run the website and understand what content works, we use third party tools (like analytics or affiliate links) as lightly and transparently as possible, and we do not sell your personal data.",
+    "meta_title": "Privacy Policy — TravelAcrossEU",
+    "meta_description": "Read how TravelAcrossEU handles personal data, analytics, and cookies."
+  },
+  {
+    "page_slug": "terms",
+    "locale": "en",
+    "title": "Terms and Conditions",
+    "subtitle": "The basic rules for using TravelAcrossEU.",
+    "body": "TravelAcrossEU is an informational website. We do our best to keep all details up to date, but travel information can change quickly.\nAlways double check important details with official sources before you book or travel.\n\nBy using this site, you agree that you are responsible for your own travel decisions and that we are not liable for losses or issues resulting from outdated or incorrect information.",
+    "meta_title": "Terms and Conditions — TravelAcrossEU",
+    "meta_description": "Read the terms and conditions for using TravelAcrossEU, including content use and limitations of liability."
+  },
+  {
+    "page_slug": "cookies",
+    "locale": "en",
+    "title": "Cookies and Tracking",
+    "subtitle": "How and why we use cookies on this website.",
+    "body": "TravelAcrossEU uses cookies and similar technologies to remember basic preferences, understand how visitors use the site, and track affiliate clicks where needed so partners know a booking came from us.\n\nYou can control cookies in your browser settings at any time.",
+    "meta_title": "Cookie Policy — TravelAcrossEU",
+    "meta_description": "Learn how TravelAcrossEU uses cookies and similar technologies, and how you can control them."
+  },
+  {
+    "page_slug": "partners",
+    "locale": "en",
+    "title": "Partners and Affiliates",
+    "subtitle": "How TravelAcrossEU works with travel brands and platforms.",
+    "body": "To keep this project sustainable, we sometimes partner with travel companies, booking platforms, and other services.\nSome links on the site may be affiliate links. That means if you click and make a booking or purchase, we may receive a small commission at no extra cost to you.\n\nWe only highlight partners and tools that fit the spirit of the site.",
+    "meta_title": "Partners and Affiliate Disclosure — TravelAcrossEU",
+    "meta_description": "Understand how TravelAcrossEU works with partners and uses affiliate links to support the project."
+  },
+  {
+    "page_slug": "deals",
+    "locale": "en",
+    "title": "Travel Deals and Offers",
+    "subtitle": "Hand picked promotions from our partners across Europe.",
+    "body": "This page highlights selected deals from our partners, such as discounted stays, special offers, or limited time promotions.\nWe focus on deals that match our destinations and are genuinely useful.\n\nAlways read the full details on the partner website before booking, as terms and conditions may change.",
+    "meta_title": "Travel Deals and Offers — TravelAcrossEU",
+    "meta_description": "See curated travel deals and promotions from TravelAcrossEU partners for trips across Europe."
+  },
+  {
+    "page_slug": "faq",
+    "locale": "en",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers about how TravelAcrossEU works.",
+    "body": "This page answers common questions about the site, content, and how we work with partners.\n\nIf you do not find what you are looking for here, you can always reach us through the contact page.",
+    "meta_title": "Frequently Asked Questions — TravelAcrossEU",
+    "meta_description": "Find quick answers to common questions about TravelAcrossEU, our content, and how we work with partners."
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "home": {
+    "badge": "TravelAcrossEU - Mode hybride clair/sombre",
+    "hero": {
+      "titlePre": "Explorez l'Europe avec",
+      "titleEmphasis": "des itinéraires plus intelligents",
+      "titlePost": "et des sélections saisonnières.",
+      "subtitle": "Une page d'accueil unique s'adapte à la langue, à la saison et à l'humeur. Mettez en avant des destinations phares, des offres de dernière minute ou des expériences sur mesure - depuis un seul tableau de bord.",
+      "ctaPrimary": "Commencer à planifier",
+      "ctaSecondary": "Voir le voyage démo",
+      "footnote": "Commutateur de langue intelligent - Sections saisonnières - Widget de réservation prêt",
+      "booking": {
+        "title": "Emplacement du widget de réservation",
+        "badge": "À venir",
+        "fromLabel": "Départ",
+        "toLabel": "Arrivée",
+        "datesLabel": "Dates",
+        "travelersLabel": "Voyageurs",
+        "fromValue": "Amsterdam, NL",
+        "toValue": "Paris, FR",
+        "datesValue": "12-16 Mar",
+        "travelersValue": "2 adultes",
+        "button": "Connecter un partenaire de réservation"
+      }
+    },
+    "seasonal": {
+      "label": "Focus saisonnier",
+      "title": "Choisissez une ambiance et nous trouverons la ville.",
+      "description": "Sélectionnez un thème et nous l'associerons à la bonne ville européenne.",
+      "cardLabel": "Saison",
+      "cta": "Explorer les destinations",
+      "cards": [
+        {
+          "title": "Escapades urbaines d'hiver",
+          "description": "Marchés festifs, hôtels design et virées nocturnes dans les galeries."
+        },
+        {
+          "title": "Escapades ensoleillées de début de printemps",
+          "description": "Toits lisboètes, pistes cyclables à Valence et itinéraires d'île en île."
+        },
+        {
+          "title": "Week-ends romantiques",
+          "description": "Hôtels de charme, bars à vin aux chandelles et balades le long de la Seine."
+        },
+        {
+          "title": "Voyages lents et itinéraires nature",
+          "description": "Cabanes forestières, ferries dans les fjords et trains panoramiques alpins."
+        }
+      ]
+    },
+    "featured": {
+      "label": "Destinations à la une",
+      "title": "Alimentées directement par l'API Django.",
+      "demoNotice": "Des itinéraires de démonstration s'affichent en attendant le contenu de production.",
+      "categoryFallback": "À la une",
+      "summaryFallback": "Nouvelles histoires à venir.",
+      "cta": "Voir le guide",
+      "footnote": "Chaque carte réutilise le même composant React, donc quand l'IA publie dans une nouvelle langue nous obtenons immédiatement le rendu amélioré."
+    },
+    "themes": {
+      "label": "Thèmes",
+      "title": "Choisissez une ambiance, pas seulement une carte.",
+      "description": "Pour l'instant, les filtres renvoient vers /destinations. Les filtres intelligents arrivent plus tard.",
+      "cards": [
+        {
+          "title": "Escapades citadines",
+          "description": "Week-ends prolongés avec food tours, art moderne et rooftops."
+        },
+        {
+          "title": "Évasions balnéaires",
+          "description": "Sauts d'île en île, surf camps et couchers de soleil méditerranéens."
+        },
+        {
+          "title": "Séjours romantiques",
+          "description": "Hôtels de charme, dégustations de vins et balades au bord de l'eau."
+        },
+        {
+          "title": "Nature et randonnée",
+          "description": "Boucles alpines, ferries dans les fjords et refuges de parcs nationaux."
+        },
+        {
+          "title": "Parcours culturels",
+          "description": "Musées, théâtre et voyages en train patrimoniaux."
+        }
+      ]
+    },
+    "blog": {
+      "label": "Inspiration du blog",
+      "title": "Les analyses arrivent bientôt. Voici où elles vivront.",
+      "description": "Nous publierons des formats longs ensuite, mais vous pouvez déjà voir la structure.",
+      "cta": "Lire la suite",
+      "cards": [
+        {
+          "tag": "Saisonnier",
+          "title": "Escapades hivernales en ville",
+          "description": "Parcourez marchés festifs, musées modernes et cafés douillets de Berlin à Vienne.",
+          "href": "#"
+        },
+        {
+          "tag": "Conseils",
+          "title": "Soleil en mi-saison",
+          "description": "Partagez le printemps entre rooftops lisboètes et douceur de l'Algarve.",
+          "href": "#"
+        },
+        {
+          "tag": "Guides",
+          "title": "Carnet de slow travel",
+          "description": "Planifiez un mois avec pass ferroviaires, maisons d'hôtes et randonnées côtières.",
+          "href": "#"
+        }
+      ]
+    },
+    "howItWorks": {
+      "label": "Comment ça marche",
+      "title": "Une mise en page hybride qui suit votre rythme opérationnel.",
+      "description": "Les vols et hôtels arrivent en PHASE 4, Étape 3 - la mise en page est déjà prête.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Choisissez une ville",
+          "description": "Sélectionnez une locale et un thème, puis choisissez d'abord la langue nécessaire."
+        },
+        {
+          "step": "02",
+          "title": "Lisez le guide",
+          "description": "Les sections héro, itinéraire, gastronomie et logistique arrivent instantanément."
+        },
+        {
+          "step": "03",
+          "title": "Personnalisez",
+          "description": "Modifiez les temps forts, épinglez vos spots favoris et sauvegardez vos notes saisonnières."
+        },
+        {
+          "step": "04",
+          "title": "Partagez ou synchronisez",
+          "description": "Poussez vers l'API Django aujourd'hui, les vols et hôtels demain."
+        }
+      ]
+    }
+  },
+  "layout": {
+    "siteTitle": "TravelAcross EU",
+    "siteTagline": "",
+    "siteInitials": "TA"
+  },
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "languageMenu": "Languages",
+    "cta": "Browse now"
+  },
+  "footer": {
+    "copyright": "© 2025 TravelAcross EU. All rights reserved.",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "contact": "Contact"
+  },
+  "notFound": {
+    "title": "Cette page s'est égarée.",
+    "description": "Nous n'avons pas trouvé la page demandée. Revenez à l'accueil ou explorez le flux de destinations pour continuer.",
+    "ctaPrimary": "Retour à l'accueil",
+    "ctaSecondary": "Voir les destinations"
+  },
+  "seo": {
+    "home": {
+      "title": "TravelAcross EU — Guides de voyage IA multilingues",
+      "description": "Découvrez la page d'accueil hybride de TravelAcross EU avec des itinéraires localisés, des temps forts saisonniers et des bases prêtes pour vols et hôtels."
+    }
+  }
+}

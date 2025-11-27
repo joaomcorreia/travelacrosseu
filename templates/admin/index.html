@@ -1,0 +1,16 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block title %}{% trans 'Site administration' %} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block content %}
+<script>
+// Redirect to custom dashboard
+window.location.href = '{% url "admin-dashboard" %}';
+</script>
+
+<noscript>
+    <meta http-equiv="refresh" content="0; url={% url 'admin-dashboard' %}">
+    <p>{% trans 'Redirecting to dashboard...' %} <a href="{% url 'admin-dashboard' %}">{% trans 'Click here if not redirected automatically' %}</a></p>
+</noscript>
+{% endblock %}

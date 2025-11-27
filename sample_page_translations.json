@@ -1,0 +1,56 @@
+[
+  {
+    "page_slug": "home",
+    "locale": "en",
+    "title": "Welcome to TravelAcross EU",
+    "subtitle": "Your AI-powered travel companion for Europe",
+    "body": "Discover the beauty and culture of Europe with our intelligent travel guides. From bustling cities to serene countryside, we help you plan the perfect European adventure. Our AI-powered platform provides personalized recommendations, local insights, and comprehensive destination information across multiple languages.",
+    "meta_title": "TravelAcross EU - AI Travel Guides for Europe",
+    "meta_description": "Explore Europe with AI-powered travel guides, personalized recommendations, and comprehensive destination information across 5 languages."
+  },
+  {
+    "page_slug": "home", 
+    "locale": "fr",
+    "title": "Bienvenue sur TravelAcross EU",
+    "subtitle": "Votre compagnon de voyage IA pour l'Europe",
+    "body": "Découvrez la beauté et la culture de l'Europe avec nos guides de voyage intelligents. Des villes animées à la campagne sereine, nous vous aidons à planifier l'aventure européenne parfaite. Notre plateforme alimentée par l'IA fournit des recommandations personnalisées, des aperçus locaux et des informations complètes sur les destinations dans plusieurs langues.",
+    "meta_title": "TravelAcross EU - Guides de Voyage IA pour l'Europe",
+    "meta_description": "Explorez l'Europe avec des guides de voyage alimentés par l'IA, des recommandations personnalisées et des informations complètes sur les destinations en 5 langues."
+  },
+  {
+    "page_slug": "about",
+    "locale": "en", 
+    "title": "About TravelAcross EU",
+    "subtitle": "Revolutionizing European travel with AI",
+    "body": "TravelAcross EU combines cutting-edge artificial intelligence with deep local knowledge to create personalized travel experiences across Europe. Our platform helps travelers discover hidden gems, understand local culture, and make the most of their European adventures. Whether you're planning a weekend city break or a month-long European tour, we provide the insights you need.",
+    "meta_title": "About TravelAcross EU - AI Travel Platform",
+    "meta_description": "Learn about TravelAcross EU's mission to revolutionize European travel through AI-powered guides and personalized recommendations."
+  },
+  {
+    "page_slug": "about",
+    "locale": "fr",
+    "title": "À propos de TravelAcross EU", 
+    "subtitle": "Révolutionner le voyage européen avec l'IA",
+    "body": "TravelAcross EU combine une intelligence artificielle de pointe avec une connaissance locale approfondie pour créer des expériences de voyage personnalisées à travers l'Europe. Notre plateforme aide les voyageurs à découvrir des joyaux cachés, à comprendre la culture locale et à tirer le meilleur parti de leurs aventures européennes.",
+    "meta_title": "À propos de TravelAcross EU - Plateforme de Voyage IA",
+    "meta_description": "Découvrez la mission de TravelAcross EU de révolutionner le voyage européen grâce à des guides alimentés par l'IA et des recommandations personnalisées."
+  },
+  {
+    "page_slug": "contact",
+    "locale": "en",
+    "title": "Contact TravelAcross EU",
+    "subtitle": "Get in touch with our team",
+    "body": "Have questions about your European travel plans? Want to learn more about our AI-powered travel guides? We're here to help! Contact our team for personalized assistance and recommendations.",
+    "meta_title": "Contact TravelAcross EU - Get Travel Help",
+    "meta_description": "Contact TravelAcross EU for personalized travel assistance, AI guide support, and European travel recommendations."
+  },
+  {
+    "page_slug": "contact",
+    "locale": "es",
+    "title": "Contactar con TravelAcross EU",
+    "subtitle": "Ponte en contacto con nuestro equipo",
+    "body": "¿Tienes preguntas sobre tus planes de viaje europeos? ¿Quieres saber más sobre nuestras guías de viaje impulsadas por IA? ¡Estamos aquí para ayudar! Contacta con nuestro equipo para obtener asistencia personalizada y recomendaciones.",
+    "meta_title": "Contactar TravelAcross EU - Obtén Ayuda de Viaje",
+    "meta_description": "Contacta con TravelAcross EU para asistencia de viaje personalizada, soporte de guías IA y recomendaciones de viaje europeo."
+  }
+]

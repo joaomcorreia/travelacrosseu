@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "portugal",
+    "name": "Portugal",
+    "short_description": "Sun-soaked beaches, historic cities, and affordable food with stunning coastal landscapes.",
+    "hero_image": "https://example.com/images/portugal-hero.jpg",
+    "is_published": true,
+    "order": 220,
+    "meta_title": "Travel Portugal – Lisbon, Porto & Coast",
+    "meta_description": "Explore Portugal with Lisbon, Porto and Algarve. Complete travel guide with destinations, culture, and tips.",
+    "og_title": "Travel Portugal",
+    "og_description": "Discover Portugal's cities, coasts and wine regions.",
+    "og_image": "https://example.com/og/portugal.jpg",
+    "canonical_url": "https://travelacrosseu.eu/en/countries/portugal",
+    "seo_enabled": true,
+    "jsonld_type": "Country",
+    "jsonld_override": ""
+  },
+  {
+    "slug": "spain", 
+    "name": "Spain",
+    "short_description": "Vibrant culture, stunning architecture, and world-class cuisine from Barcelona to Seville.",
+    "hero_image": "https://example.com/images/spain-hero.jpg",
+    "is_published": true,
+    "order": 230,
+    "meta_title": "Spain Travel Guide – Barcelona, Madrid & Beyond",
+    "meta_description": "Discover Spain's best destinations from Barcelona's art to Andalusia's charm. Complete travel planning guide.",
+    "og_title": "Travel Spain",
+    "og_description": "Experience Spain's culture, architecture, and cuisine across iconic cities.",
+    "og_image": "https://example.com/og/spain.jpg", 
+    "canonical_url": "https://travelacrosseu.eu/en/countries/spain",
+    "seo_enabled": true,
+    "jsonld_type": "Country",
+    "jsonld_override": ""
+  }
+]
