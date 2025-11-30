@@ -39,9 +39,12 @@ ALLOWED_HOSTS = [h.strip() for h in raw_allowed_hosts.split(",") if h.strip()]
 
 raw_cors_origins = os.getenv(
     "DJANGO_CORS_ALLOWED_ORIGINS",
-    "http://localhost:3000,http://127.0.0.1:3000",
+    "http://localhost:3000,http://127.0.0.1:3000,http://localhost:3001,http://127.0.0.1:3001",
 )
 CORS_ALLOWED_ORIGINS = [o.strip() for o in raw_cors_origins.split(",") if o.strip()]
+
+# For development, allow all origins
+CORS_ALLOW_ALL_ORIGINS = True
 
 raw_csrf_trusted = os.getenv(
     "DJANGO_CSRF_TRUSTED_ORIGINS",
@@ -49,6 +52,12 @@ raw_csrf_trusted = os.getenv(
 )
 # Update these origins for production deployment (https://travelacross.eu, etc.)
 CSRF_TRUSTED_ORIGINS = [o.strip() for o in raw_csrf_trusted.split(",") if o.strip()]
+
+# Frontend base URL for admin previews
+FRONTEND_BASE_URL = os.getenv(
+    "FRONTEND_BASE_URL",
+    os.getenv("NEXT_PUBLIC_SITE_URL", "http://localhost:3000"),
+)
 
 
 # Application definition
@@ -177,3 +186,6 @@ REST_FRAMEWORK = {
         "rest_framework.parsers.JSONParser",
     ],
 }
+
+# OpenAI API configuration
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
